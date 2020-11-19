@@ -1,0 +1,229 @@
+@import 'reset.css';
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.active {
+  color: #FD5238;
+}
+.text {
+  text-align: center;
+  color: #FD5238;
+}
+.nav {
+  height: 123px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #cccccc;
+}
+.nav .nav_t {
+  width: 160px;
+  height: 38px;
+  margin: 48px auto;
+}
+.nav .nav_b {
+  width: 332px;
+  height: 80px;
+  margin: 40px auto;
+}
+.nav .nav_b a {
+  font-size: 16px;
+  color: #A4A4A2;
+}
+.nav .nav_b .new {
+  float: left;
+  width: 165px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+.nav .nav_b .new a {
+  color: #FD5238;
+}
+.nav .nav_b .new .line {
+  width: 165px;
+  height: 4px;
+  background-color: #FD5238;
+}
+.nav .nav_b .hot {
+  float: left;
+  width: 165px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+.nav .nav_b .hot .line1 {
+  width: 165px;
+  height: 4px;
+  background-color: #FD5238;
+  display: none;
+}
+.nav1 {
+  height: 50px;
+  line-height: 50px;
+  background-color: #ffffff;
+}
+.nav1 a:nth-of-type(1) {
+  margin-left: 380px;
+}
+.nav1 a {
+  margin-right: 116px;
+  color: #A4A4A2;
+  font-size: 16px;
+}
+.nav1 .color {
+  color: #393532;
+}
+.main {
+  height: auto;
+  background-color: #F7F7F7;
+  overflow: hidden;
+}
+.main .content {
+  margin-top: 24px;
+}
+.main .content .box {
+  width: 220px;
+  height: 284px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  transition: all 1s;
+  float: left;
+  margin-top: 24px;
+  margin-right: 34px;
+  margin-bottom: 34px;
+}
+.main .content .box li img {
+  width: 220px;
+  height: 130px;
+}
+.main .content .box li h4 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 14px;
+  margin-bottom: 8px;
+  margin-top: 12px;
+  margin-left: 20px;
+  margin-right: 14px;
+  text-align: center;
+}
+.main .content .box li .one {
+  display: inline-block;
+  width: 48px;
+  height: 23px;
+  line-height: 23px;
+  border: 1px solid #A4A4A2;
+  border-radius: 4px;
+  color: #A4A4A2;
+  text-align: center;
+  margin-left: 54px;
+  margin-right: 13px;
+  float: left;
+}
+.main .content .box li .two {
+  display: inline-block;
+  width: 48px;
+  height: 23px;
+  line-height: 23px;
+  border: 1px solid #A4A4A2;
+  border-radius: 4px;
+  color: #A4A4A2;
+  text-align: center;
+}
+.main .content .box li .three {
+  margin-top: 12px;
+  margin-bottom: 6px;
+  text-align: center;
+  font-size: 14px;
+  color: #000000;
+}
+.main .content .box li .three span {
+  color: #FD5238;
+}
+.main .content .box li .four {
+  color: #A4A4A2;
+  text-align: center;
+}
+.main .content .box:hover {
+  transform: scale(1.1);
+}
+.main .content .box1 {
+  width: 220px;
+  height: 284px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  transition: all 1s;
+  float: left;
+  margin-top: 24px;
+  margin-right: 34px;
+  margin-bottom: 34px;
+}
+.main .content .box1 li img {
+  width: 220px;
+  height: 130px;
+}
+.main .content .box1 li h4 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 14px;
+  margin-bottom: 8px;
+  margin-top: 12px;
+  margin-left: 20px;
+  margin-right: 14px;
+  text-align: center;
+}
+.main .content .box1 li .one {
+  display: inline-block;
+  width: 48px;
+  height: 23px;
+  line-height: 23px;
+  border: 1px solid #78ca66;
+  border-radius: 4px;
+  color: #78ca66;
+  text-align: center;
+  margin-left: 54px;
+  margin-right: 13px;
+  float: left;
+}
+.main .content .box1 li .two {
+  display: inline-block;
+  width: 48px;
+  height: 23px;
+  line-height: 23px;
+  border: 1px solid #78ca66;
+  border-radius: 4px;
+  color: #78ca66;
+  text-align: center;
+}
+.main .content .box1 li .three {
+  margin-top: 12px;
+  margin-bottom: 6px;
+  text-align: center;
+  font-size: 14px;
+  color: #000000;
+}
+.main .content .box1 li .three span {
+  color: #FD5238;
+}
+.main .content .box1 li .four {
+  color: #78ca66;
+  text-align: center;
+}
+.main .content .box1:hover {
+  transform: scale(1.1);
+}
+.main .content ul:nth-of-type(4) {
+  margin-right: 0;
+}
+.main .content ul:nth-of-type(8) {
+  margin-right: 0;
+}
+.main .content ul:nth-of-type(12) {
+  margin-right: 0;
+}
+.main .content .box:nth-of-type(16) {
+  margin-right: 0;
+}

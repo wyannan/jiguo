@@ -8,6 +8,8 @@
 header {
   height: 74px;
   background-color: #ffffff;
+  border-bottom: 1px solid #d0d0d0;
+  box-shadow: 2px 2px 2px #d0d0d0;
 }
 header img {
   width: 138px;
@@ -26,9 +28,6 @@ header ul li {
 header ul li a {
   margin-right: 50px;
   font-size: 20px;
-}
-header ul li:first-child a {
-  color: #FA884A;
 }
 header .search {
   width: 26px;

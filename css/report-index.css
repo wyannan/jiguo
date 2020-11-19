@@ -1,0 +1,335 @@
+@import 'reset.css';
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.active {
+  color: #FD5238;
+}
+.nav {
+  height: 168px;
+  background-color: #ffffff;
+}
+.nav .nav_t {
+  width: 160px;
+  height: 38px;
+  margin: 48px auto;
+}
+.nav .nav_b {
+  width: 332px;
+  height: 80px;
+  margin: 40px auto;
+}
+.nav .nav_b a {
+  font-size: 16px;
+  color: #A4A4A2;
+}
+.nav .nav_b .new {
+  float: left;
+  width: 165px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+.nav .nav_b .new a {
+  color: #FD5238;
+}
+.nav .nav_b .new .line {
+  width: 165px;
+  height: 4px;
+  background-color: #FD5238;
+}
+.nav .nav_b .hot {
+  float: left;
+  width: 165px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+.nav .nav_b .hot .line1 {
+  width: 165px;
+  height: 4px;
+  background-color: #FD5238;
+  display: none;
+}
+.main {
+  height: auto;
+  background-color: #F7F7F7;
+  overflow: hidden;
+}
+.main .content {
+  background-color: #ffffff;
+}
+.main .content .left {
+  width: 640px;
+  height: auto;
+  float: left;
+}
+.main .content .left .box1 {
+  width: 638px;
+  height: 375px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  margin-top: 26px;
+  background: url(../img/bg1.jpg);
+}
+.main .content .left .box1 li {
+  width: 640px;
+  height: 110px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-top: 265px;
+  overflow: hidden;
+}
+.main .content .left .box1 li p {
+  color: #000000;
+  margin-top: 24px;
+  margin-left: 22px;
+  font-size: 14px;
+}
+.main .content .left .box1 li .span1 {
+  float: left;
+  margin-left: 22px;
+  margin-top: 33px;
+  color: #A4A4A2;
+}
+.main .content .left .box1 li .span1 span {
+  color: #FD5238;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+.main .content .left .box1 li .span2 {
+  float: right;
+  margin-right: 22px;
+  margin-top: 33px;
+  color: #A4A4A2;
+}
+.main .content .left .box1 li .span2 img {
+  margin-left: 10px;
+}
+.main .content .left .box {
+  width: 638px;
+  height: 46px;
+  line-height: 46px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #A4A4A2;
+}
+.main .content .left .box2 {
+  width: 638px;
+  height: 375px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  margin-top: 26px;
+  background: url(../img/bg2.jpg);
+  background-size: cover;
+}
+.main .content .left .box2 li {
+  width: 640px;
+  height: 110px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-top: 265px;
+  overflow: hidden;
+}
+.main .content .left .box2 li p {
+  color: #000000;
+  margin-top: 24px;
+  margin-left: 22px;
+  font-size: 14px;
+}
+.main .content .left .box2 li .span1 {
+  float: left;
+  margin-left: 22px;
+  margin-top: 33px;
+  color: #A4A4A2;
+}
+.main .content .left .box2 li .span1 span {
+  color: #FD5238;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+.main .content .left .box2 li .span2 {
+  float: right;
+  margin-right: 22px;
+  margin-top: 33px;
+  color: #A4A4A2;
+}
+.main .content .left .box2 li .span2 img {
+  margin-left: 10px;
+}
+.main .content .left .box3 {
+  width: 638px;
+  height: 375px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  margin-top: 26px;
+  background: url(../img/bg3.jpg);
+  background-size: cover;
+}
+.main .content .left .box3 li {
+  width: 640px;
+  height: 110px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-top: 265px;
+  overflow: hidden;
+}
+.main .content .left .box3 li p {
+  color: #000000;
+  margin-top: 24px;
+  margin-left: 22px;
+  font-size: 14px;
+}
+.main .content .left .box3 li .span1 {
+  float: left;
+  margin-left: 22px;
+  margin-top: 33px;
+  color: #A4A4A2;
+}
+.main .content .left .box3 li .span1 span {
+  color: #FD5238;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+.main .content .left .box3 li .span2 {
+  float: right;
+  margin-right: 22px;
+  margin-top: 33px;
+  color: #A4A4A2;
+}
+.main .content .left .box3 li .span2 img {
+  margin-left: 10px;
+}
+.main .content .left .box4 {
+  width: 638px;
+  height: 375px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  margin-top: 26px;
+  background: url(../img/bg4.jpg);
+  background-size: cover;
+}
+.main .content .left .box4 li {
+  width: 640px;
+  height: 110px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-top: 265px;
+  overflow: hidden;
+}
+.main .content .left .box4 li p {
+  color: #000000;
+  margin-top: 24px;
+  margin-left: 22px;
+  font-size: 14px;
+}
+.main .content .left .box4 li .span1 {
+  float: left;
+  margin-left: 22px;
+  margin-top: 33px;
+  color: #A4A4A2;
+}
+.main .content .left .box4 li .span1 span {
+  color: #FD5238;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+.main .content .left .box4 li .span2 {
+  float: right;
+  margin-right: 22px;
+  margin-top: 33px;
+  color: #A4A4A2;
+}
+.main .content .left .box4 li .span2 img {
+  margin-left: 10px;
+}
+.main .content .left .box5 {
+  width: 638px;
+  height: 375px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  margin-top: 26px;
+  background: url(../img/bg5.jpg);
+  background-size: cover;
+}
+.main .content .left .box5 li {
+  width: 640px;
+  height: 110px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-top: 265px;
+  overflow: hidden;
+}
+.main .content .left .box5 li p {
+  color: #000000;
+  margin-top: 24px;
+  margin-left: 22px;
+  font-size: 14px;
+}
+.main .content .left .box5 li .span1 {
+  float: left;
+  margin-left: 22px;
+  margin-top: 33px;
+  color: #A4A4A2;
+}
+.main .content .left .box5 li .span1 span {
+  color: #FD5238;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+.main .content .left .box5 li .span2 {
+  float: right;
+  margin-right: 22px;
+  margin-top: 33px;
+  color: #A4A4A2;
+}
+.main .content .left .box5 li .span2 img {
+  margin-left: 10px;
+}
+.main .content .right {
+  width: 270px;
+  height: auto;
+  float: right;
+}
+.main .content .right .buy-tittle,
+.main .content .right .jiguo,
+.main .content .right .us {
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 15px;
+  border-left: 5px solid #FB5542;
+  margin-top: 40px;
+}
+.main .content .right p {
+  line-height: 25px;
+  color: gray;
+}
+.main .content .right .from {
+  text-align: center;
+  color: gray;
+}
+.main .content .right .price {
+  height: 100px;
+  line-height: 100px;
+  color: #FB5542;
+  font-size: 50px;
+  text-align: left;
+}
+.main .content .right .to-buy {
+  width: 270px;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #FB5542;
+}
+.main .content .right h3 {
+  line-height: 50px;
+}
+.main .content .right img {
+  margin-top: 20px;
+}

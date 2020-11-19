@@ -1,0 +1,442 @@
+@import 'rest.css';
+nav {
+  width: 100%;
+}
+nav .yellow {
+  height: 300px;
+  color: white;
+  background: url(../img/original.jpg) no-repeat -320px 0px;
+}
+nav .yellow .font23 {
+  width: 315px;
+  height: 210px;
+  padding-top: 45px;
+  margin-left: 855px;
+}
+nav .yellow .font23 :hover {
+  transform: scale(1.5, 1.5);
+}
+nav .yellow .font23 p:first-of-type {
+  font-size: 30px;
+}
+nav .yellow .font23 .clearfix .box1 {
+  font-size: 16px;
+  width: 94px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+  text-align: center;
+  background-color: #f8d19a;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+nav .yellow .font23 .clearfix .box2 {
+  width: 64px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+  text-align: center;
+  background-color: #f8d19a;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+nav .yellow .font23 .clearfix .box3 {
+  width: 54px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+  text-align: center;
+  background-color: #f8d19a;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+nav .yellow .font23 p:nth-of-type(2) {
+  margin-top: 20px;
+  font-size: 18px;
+}
+nav .yellow .font23 p:nth-of-type(3) {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+nav .yellow .font23 .btn {
+  width: 242px;
+  height: 48px;
+  line-height: 48px;
+  background-color: #fe5341;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.hot {
+  overflow: hidden;
+  height: 380px;
+  background-color: #ffffff;
+}
+.hot .prev {
+  position: absolute;
+  top: 538px;
+  left: 55px;
+}
+.hot .content {
+  width: 1004px;
+  height: 386px;
+}
+.hot .content .inner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.hot .content .inner h2 {
+  margin-top: 22px;
+  margin-bottom: 20px;
+}
+.hot .content .inner .float {
+  position: absolute;
+  top: 535px;
+  right: 103px;
+}
+.hot .content .inner .tao {
+  width: 5020px;
+  overflow: hidden;
+  float: left;
+}
+.hot .content .inner .tao .box98 {
+  width: 1004px;
+  float: left;
+}
+.hot .content .inner .tao .box98 li:nth-of-type(2) div .one {
+  border: 1px solid #7acc68;
+  color: #7acc68;
+}
+.hot .content .inner .tao .box98 li:nth-of-type(2) div .two {
+  border: 1px solid #7acc68;
+  color: #7acc68;
+}
+.hot .content .inner .tao .box98 li:nth-of-type(2) .green {
+  color: #7acc68;
+}
+.hot .content .inner .tao .box98 li {
+  width: 220px;
+  height: 286px;
+  text-align: center;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  float: left;
+  margin-right: 29px;
+}
+.hot .content .inner .tao .box98 li img {
+  width: 220px;
+  height: 130px;
+}
+.hot .content .inner .tao .box98 li p:first-of-type {
+  font-size: 14px;
+  color: #000000;
+  margin-top: 12px;
+  margin-left: 20px;
+  margin-right: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+.hot .content .inner .tao .box98 li .center {
+  text-align: center;
+  margin-left: 54px ;
+  margin-top: 8px;
+  overflow: hidden;
+}
+.hot .content .inner .tao .box98 li .center .one {
+  width: 48px;
+  height: 23px;
+  line-height: 23px;
+  color: #e9672b;
+  border: 1px solid #e9672b;
+  float: left;
+}
+.hot .content .inner .tao .box98 li .center .two {
+  width: 46px;
+  height: 23px;
+  line-height: 23px;
+  color: #e9672b;
+  border: 1px solid #e9672b;
+  float: left;
+  margin-left: 13px;
+}
+.hot .content .inner .tao .box98 li p:nth-of-type(2) {
+  margin-top: 12px;
+}
+.hot .content .inner .tao .box98 li p:nth-of-type(2) span {
+  color: #e9672b;
+}
+.hot .content .inner .tao .box98 li p:nth-of-type(3) {
+  margin-top: 12px;
+  color: #e9672b;
+}
+.report {
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+.report .top {
+  overflow: hidden;
+}
+.report .top .left {
+  float: left;
+  font-size: 20px ;
+}
+.report .top .right {
+  float: right;
+  overflow: hidden;
+  margin-right: 41px;
+  margin-bottom: 5px;
+}
+.report .top .right p {
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.report .top .right img {
+  margin-top: 5px;
+  float: left;
+}
+.report .bottom ul {
+  overflow: hidden;
+}
+.report .bottom ul li {
+  width: 220px;
+  float: left;
+  margin-right: 29px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+.report .bottom ul li .top {
+  width: 220px;
+  margin-right: 25px;
+  border: 1px solid #e8e8e8;
+}
+.report .bottom ul li .top img {
+  width: 220px;
+}
+.report .bottom ul li .bottom p {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.report .bottom ul li .bottom .else {
+  overflow: hidden;
+  background: url(../img/xin.png) no-repeat 149px 17px;
+  margin-bottom: 19px;
+}
+.report .bottom ul li .bottom .else .price {
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.report .bottom ul li .bottom .else .love {
+  float: left;
+  margin-top: 15px;
+  margin-left: 130px;
+}
+.report .bottom ul li .bottom .else .word {
+  float: left;
+  margin-top: -18px;
+  margin-left: 203px;
+}
+.report .bottom ul li .bottom .else .space {
+  background: url(../img/reply.png) no-repeat 1px 1px;
+  width: 16px;
+  margin-top: 17px;
+  margin-left: 181px;
+  height: 15px;
+}
+.guid .top {
+  overflow: hidden;
+}
+.guid .top .left {
+  float: left;
+  font-size: 20px ;
+}
+.guid .top .right {
+  float: right;
+  overflow: hidden;
+  margin-right: 41px;
+  margin-bottom: 5px;
+}
+.guid .top .right p {
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.guid .top .right img {
+  margin-top: 5px;
+  float: left;
+}
+.guid .bott ul {
+  overflow: hidden;
+}
+.guid .bott ul li {
+  width: 220px;
+  float: left;
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  background-color: #ffffff;
+  transition: all 1s;
+  margin-top: 24px;
+  margin-right: 28px;
+  margin-bottom: 20px;
+}
+.guid .bott ul li .g1 {
+  width: 220px;
+  height: 130px;
+}
+.guid .bott ul li .text {
+  color: #A4A4A2;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+.guid .bott ul li .xin {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 52px;
+  float: right;
+  margin-right: 10px;
+}
+.play .top {
+  overflow: hidden;
+}
+.play .top .left {
+  float: left;
+  font-size: 20px ;
+}
+.play .top .right {
+  float: right;
+  overflow: hidden;
+  margin-right: 41px;
+  margin-bottom: 5px;
+}
+.play .top .right p {
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.play .top .right img {
+  margin-top: 5px;
+  float: left;
+}
+.play .main .main_content .box {
+  overflow: hidden;
+}
+.play .main .main_content .box li {
+  width: 220px;
+  float: left;
+  margin-right: 31px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+.play .main .main_content .box li .top {
+  width: 220px;
+  margin-right: 25px;
+  border: 1px solid #e8e8e8;
+}
+.play .main .main_content .box li .top img {
+  width: 220px;
+}
+.play .main .main_content .box li .bottom .light {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.play .main .main_content .box li .bottom .font {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.play .main .main_content .box li .bottom .else {
+  overflow: hidden;
+  background: url(../img/xin.png) no-repeat 149px 17px;
+}
+.play .main .main_content .box li .bottom .else .price {
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: red;
+}
+.play .main .main_content .box li .bottom .else .love {
+  float: left;
+  margin-top: 15px;
+  margin-left: 125px;
+}
+.play .main .main_content .box li .bottom .else .word {
+  float: left;
+  margin-top: -18px;
+  margin-left: 203px;
+}
+.play .main .main_content .box li .bottom .else .space {
+  background: url(../img/reply.png) no-repeat 1px 1px;
+  width: 16px;
+  margin-top: 17px;
+  margin-left: 181px;
+  height: 15px;
+}
+.play .main .main_content .box1 {
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+.play .main .main_content .box1 li {
+  width: 220px;
+  float: left;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+.play .main .main_content .box1 li .top {
+  width: 220px;
+  margin-right: 25px;
+  border: 1px solid #e8e8e8;
+}
+.play .main .main_content .box1 li .top img {
+  width: 220px;
+}
+.play .main .main_content .box1 li .bottom .light {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.play .main .main_content .box1 li .bottom .font {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.play .main .main_content .box1 li .bottom .else {
+  overflow: hidden;
+  background: url(../img/xin.png) no-repeat 149px 17px;
+}
+.play .main .main_content .box1 li .bottom .else .price {
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: red;
+}
+.play .main .main_content .box1 li .bottom .else .love {
+  float: left;
+  margin-top: 15px;
+  margin-left: 117px;
+}
+.play .main .main_content .box1 li .bottom .else .word {
+  float: left;
+  margin-top: -18px;
+  margin-left: 203px;
+}
+.play .main .main_content .box1 li .bottom .else .space {
+  background: url(../img/reply.png) no-repeat 1px 1px;
+  width: 16px;
+  margin-top: 17px;
+  margin-left: 181px;
+  height: 15px;
+}
+.more {
+  margin-top: 55px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: red;
+  background: url(../../img/more.png) no-repeat 443px 6px;
+}

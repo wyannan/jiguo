@@ -1,0 +1,108 @@
+@import'reset.css';
+@co:#FD5238;
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.nav{
+    height: 168px;
+    background-color: #ffffff;
+    .nav_t{
+        width: 160px;
+        height: 38px;
+        margin: 48px auto;
+    }
+    .nav_b{
+        width: 332px;
+        height: 80px;
+        margin: 40px auto;
+        a{
+            font-size: 16px;
+            color: #A4A4A2;
+        }
+        .new{
+            .fl;
+            width: 165px;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            .line{
+                width: 165px;
+                height: 4px;
+                background-color: @co;
+                display: none;
+            }
+        }
+        .hot{
+            .fl;
+            width: 165px;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            a{
+                color: @co;
+            }
+            .line1{
+                width: 165px;
+                height: 4px;
+                background-color: @co;
+            }
+        }
+    }
+}
+.main{
+    height: auto;
+    background-color: #F7F7F7;
+    overflow: hidden;
+    .box{
+        width: 220px;
+        height: 226px;
+        border-top: 1px solid #cccccc;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        background-color: #ffffff;
+        transition: all 1s;
+        .fl;
+        margin-top: 24px;
+        margin-right: 38px;
+        margin-bottom: 20px;
+        li{
+            .g1{
+                width: 220px;
+                height: 130px;
+            }
+            .text{
+                color: #A4A4A2;
+                margin-left: 10px;
+                margin-top: 8px;
+                    
+            }
+            .xin{
+                margin-top: 20px;
+                margin-left: 20px;
+                width: 52px;
+                .fr;
+                margin-right: 10px;
+            }
+        }
+                  
+    }
+    ul:nth-of-type(4){
+        margin-right: 0;
+    }
+    ul:nth-of-type(8){
+        margin-right: 0;
+    }
+    ul:nth-of-type(12){
+        margin-right: 0;
+    }
+    ul:nth-of-type(16){
+        margin-right: 0;
+    }
+    .box:hover{
+        transform: scale(1.1);
+    }
+
+}

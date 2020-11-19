@@ -1,0 +1,102 @@
+@import 'reset.css';
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.nav {
+  height: 168px;
+  background-color: #ffffff;
+}
+.nav .nav_t {
+  width: 160px;
+  height: 38px;
+  margin: 48px auto;
+}
+.nav .nav_b {
+  width: 332px;
+  height: 80px;
+  margin: 40px auto;
+}
+.nav .nav_b a {
+  font-size: 16px;
+  color: #A4A4A2;
+}
+.nav .nav_b .new {
+  float: left;
+  width: 165px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+.nav .nav_b .new .line {
+  width: 165px;
+  height: 4px;
+  background-color: #FD5238;
+  display: none;
+}
+.nav .nav_b .hot {
+  float: left;
+  width: 165px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+.nav .nav_b .hot a {
+  color: #FD5238;
+}
+.nav .nav_b .hot .line1 {
+  width: 165px;
+  height: 4px;
+  background-color: #FD5238;
+}
+.main {
+  height: auto;
+  background-color: #F7F7F7;
+  overflow: hidden;
+}
+.main .box {
+  width: 220px;
+  height: 226px;
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  background-color: #ffffff;
+  transition: all 1s;
+  float: left;
+  margin-top: 24px;
+  margin-right: 38px;
+  margin-bottom: 20px;
+}
+.main .box li .g1 {
+  width: 220px;
+  height: 130px;
+}
+.main .box li .text {
+  color: #A4A4A2;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+.main .box li .xin {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 52px;
+  float: right;
+  margin-right: 10px;
+}
+.main ul:nth-of-type(4) {
+  margin-right: 0;
+}
+.main ul:nth-of-type(8) {
+  margin-right: 0;
+}
+.main ul:nth-of-type(12) {
+  margin-right: 0;
+}
+.main ul:nth-of-type(16) {
+  margin-right: 0;
+}
+.main .box:hover {
+  transform: scale(1.1);
+}
